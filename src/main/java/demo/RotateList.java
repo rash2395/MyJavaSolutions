@@ -13,7 +13,7 @@ public class RotateList {
             list.add(i);
         }
         System.out.println("Old list = " +list);
-        Collections.rotate(list, 4);
+        Collections.rotate(list, 3);
         System.out.println("Rotated List = " + list);
     }
 
